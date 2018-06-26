@@ -1,0 +1,45 @@
+html {
+	background: url('img/bg-img.jpg') no-repeat center fixed;
+	repeat: no-repeat;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;
+}
+body {
+	margin: 0px;
+}
+
+div.container.main {
+	padding: 0px 0px;
+	width: 100%;
+	height: 100%;
+	font-family: "Courier New";
+	max-width: unset;
+}
+
+div.container.btn-container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	max-width: unset;
+	margin: 250px 0px;
+}
+
+input.btn.btn-primary {
+	min-width: 25%;
+	min-width: auto;
+	-webkit-box-shadow: 5px 5px 40px -5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 5px 5px 40px -5px rgba(0,0,0,0.75);
+	box-shadow: 5px 5px 40px -5px rgba(0,0,0,0.75);
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: #50505080;
+  font-size: 0.8em;
+  /* height: 42px; You can also remove this as height can now be dynamic */
+}
