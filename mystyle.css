@@ -36,10 +36,15 @@ input.btn.btn-primary {
 }
 
 .footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  background: #50505080;
-  font-size: 0.8em;
-  /* height: 42px; You can also remove this as height can now be dynamic */
+  	position: absolute;
+  	bottom: 0;
+  	width: 100%;
+  	background: #50505080;
+  	font-size: 0.8em;
+  	/* height: 42px; You can also remove this as height can now be dynamic */
+}
+
+#mc_embed_signup input.button {
+	min-width: 300px;
+	width: 35%;
 }
